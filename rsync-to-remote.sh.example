@@ -1,0 +1,4 @@
+rsync -avz --exclude-from='.rsync-ignore' \
+  -e "ssh -i <YOUR PEM FILE>" \
+  . \
+  <host>:<path>
