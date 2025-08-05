@@ -19,7 +19,7 @@ Then, configure the .env file (either `.env.dev` or `.env.prod`):
 - For env fields ending with `SECRET`, run the `gen-secret.sh` and paste values in.
 - For fields ending with `SALT`, run the `gen-salt.sh` script and paste the values in.
 
-You may also want tot customize the `./config/` files -- configure the CORS policies, for example.
+You may also want to customize the `./config/` files -- configure the CORS policies, for example.
 
 You may also want to customze the api for the `Blog` content type -- for example, configure rate limiting.
 
